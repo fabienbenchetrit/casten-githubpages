@@ -57,8 +57,52 @@
   <div id="wrapper">
     <h1>CASTEN</h1>
     <h2>Recherche une voiture proche de vous</h2>
-    <a href="#" class="btn btn-primary">Commandez</a>
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#orderform">
+      Commandez
+    </button>
   </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="ordeform" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <div id="wufoo-r1hxfwh11tekplc">
+Fill out my <a href="https://casten.wufoo.com/forms/r1hxfwh11tekplc">online form</a>.
+</div>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+<script type="text/javascript">var r1hxfwh11tekplc;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'casten',
+'formHash':'r1hxfwh11tekplc',
+'autoResize':true,
+'height':'478',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { r1hxfwh11tekplc = new WufooForm();r1hxfwh11tekplc.initialize(options);r1hxfwh11tekplc.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
   <div class="spacer"></div>
     <div class="container">
       <div class="row text-center">
