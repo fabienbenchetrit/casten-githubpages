@@ -1,7 +1,4 @@
-body {
-	background-image: url("../images/grid.jpg");
-	font-family: "Open Sans";
-}
+
 
 #footer {
 	background: rgb(30, 30, 30);
@@ -68,4 +65,9 @@ body {
 #mc_embed_signup {
 	height: 10em;
 	text-align: center;
+}
+
+.bg-white {
+	background: #3079AB;
+	color:white;
 }
