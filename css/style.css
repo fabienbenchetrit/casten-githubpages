@@ -4,14 +4,14 @@ body {
 }
 
 #footer {
-	background-color: black;
-	color: #aaaaaa;
-	padding-top: 4em;
-	padding-bottom: 4em;
+	background: rgb(30, 30, 30);
+	color: white; 
+	padding: 40px 10px;
 }
 
 #footer a {
-	color: #aaaaaa;
+	font-size: 20px;
+	color: grey; 
 }
 
 #footer a:hover {
