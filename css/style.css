@@ -7,6 +7,7 @@ body {
 	background: rgb(30, 30, 30);
 	color: white; 
 	padding: 40px 10px;
+	text-align: center;
 }
 
 #footer a {
@@ -15,7 +16,7 @@ body {
 }
 
 #footer a:hover {
-	color: #dddddd;
+	color: grey;
 }
 
 .social a {
@@ -42,7 +43,11 @@ body {
 }
 
 .spacer {
-	height: 10em;
+	height: 15em;
+}
+
+.spacer img {
+	height: 5em;
 }
 
 .feature p {
@@ -54,6 +59,12 @@ body {
 	margin-bottom: 2em;
 }
 
+
+
 .navbar-transparent {
 	background-color:rgba(0, 0, 0, 0.7);
+}
+
+#mc_embed_signup {
+	height: 5em;
 }
