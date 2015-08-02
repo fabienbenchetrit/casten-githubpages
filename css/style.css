@@ -9,6 +9,7 @@ body {
 	color: gainsboro;
 	margin-right: center;
 	margin-left: center;
+	size:center;
 }
 
 #footer a {
@@ -60,7 +61,7 @@ body {
 }
 
 .feature img {
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 
 .navbar-transparent {
@@ -80,4 +81,27 @@ body {
 
 .container {
 	padding:50px;
+}
+
+.style {
+	background: white;
+	padding: 80px;
+	margin:50px;
+}
+
+.img-circle {
+	border-radius: 50px;
+}
+
+#logo {
+	padding: 80px;
+	margin: 50px;
+	border-radius: 10px;
+}
+
+.card {
+	background-color: white;
+	padding: 30px;
+	width: 500px;
+	margin: 20px auto;
 }
