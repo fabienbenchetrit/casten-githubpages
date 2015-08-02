@@ -7,6 +7,8 @@ body {
 	color: white; 
 	padding: 40px 0;
 	color: gainsboro;
+	margin-right: center;
+	margin-left: center;
 }
 
 #footer a {
@@ -20,13 +22,16 @@ body {
 	color: red;
 }
 
+
+
+
 .social a {
 	font-size: 26px;
 }
 
 #wrapper {
 	background-image: url("../images/backstreet/streetview.jpg");
-	height: 550px;
+	height: 650px;
 	background-size:cover;
 	text-align: center;
 	padding-top: 150px;
@@ -69,4 +74,9 @@ body {
 #mc_embed_signup {
 	height: 10em;
 	text-align: center;
+	margin: 5em
+}
+
+.mc_embed_signup p {
+	height:10em;
 }
