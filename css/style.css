@@ -80,7 +80,9 @@ body {
 
 
 .container {
+	width:1000px;
 	padding:50px;
+	margin:20px auto;
 }
 
 .style {
@@ -100,7 +102,7 @@ body {
 }
 
 .card {
-	background-color: white;
+	background: rgba(228, 228, 228, 1);
 	padding: 30px;
 	width: 500px;
 	margin: 20px auto;
